@@ -5,9 +5,9 @@
 using namespace std;
 
 //Maxwell Adelman
-//__/__/2022
+//4/17/2023
 //CIS 1202.501
-//  assignment
+//Inheritance assignment
 int main() {
 
 

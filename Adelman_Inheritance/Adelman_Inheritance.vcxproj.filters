@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Adelman_.cpp">
+    <ClCompile Include="Adelman_Inheritance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
