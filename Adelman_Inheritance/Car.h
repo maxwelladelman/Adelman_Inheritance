@@ -1,6 +1,7 @@
-#ifndef CAR.H
-#define CAR.H
+#ifndef CAR_H
+#define CAR_H
 #include "Vehicle.h"
+#include <iostream>
 class Car : public Vehicle
 {
 protected:
@@ -9,7 +10,16 @@ protected:
 
 public:
     Car(std::string make, int year, int numDoors);
-    void displayInfo() override;
+    
+    
+    virtual void displayInfo() override;
+
+
+
+    virtual ~Car() {
+        std::cout << "Car Destructed\n";
+    }
+    
 
 };
 

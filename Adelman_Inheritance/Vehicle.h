@@ -1,7 +1,7 @@
 #ifndef VEHICLE_H
 #define VEHICLE_H
 #include<string>
-
+#include<iostream>
 class Vehicle {
 
 protected:
@@ -16,7 +16,9 @@ public:
 	virtual void displayInfo();
 
 
-
+	virtual ~Vehicle() {
+		std::cout << "Vehicle destructed\n";
+	}
 
 
 
