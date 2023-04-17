@@ -9,7 +9,8 @@ protected:
 	int year;//year built
 
 public:
-	Vehicle() {}
+	Vehicle(std::string, int) {}
+
 
 
 	void displayInfo();
