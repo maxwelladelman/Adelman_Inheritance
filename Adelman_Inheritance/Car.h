@@ -17,7 +17,7 @@ public:
 
 
     virtual ~Car() {
-        std::cout << "Car Destructed\n";
+        
     }
     
 

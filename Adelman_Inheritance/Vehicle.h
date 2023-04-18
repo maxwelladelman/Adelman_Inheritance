@@ -17,7 +17,7 @@ public:
 
 
 	virtual ~Vehicle() {
-		std::cout << "Vehicle destructed\n";
+		
 	}
 
 
